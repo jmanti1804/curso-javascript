@@ -60,9 +60,11 @@ function calcularPerimetroTriangulo(){
     document.getElementById("ViewResultTriangulo").value=perimetro;
 }
 function calcularAreaTriangulo(){
-    const input = documnet.getElementById("InputTriangulo3");
-    const value = parseInt(input.value);
+    const input3= document.getElementById("InputTriangulo3");
+    const value3 = parseInt(input3.value);
+    const input5 = document.getElementById("InputTriangulo4");
+    const value5 = parseInt(input5.value);
 
-    const area = areaTriangulo(value);
-    document,.getElementById("ViewResultTriangulo").value=perimetro;
+    const area = areaTriangulo(value3, value5);
+    document.getElementById("ViewResultTriangulo").value=area;
 }
