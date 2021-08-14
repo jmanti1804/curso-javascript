@@ -11,3 +11,10 @@ el programa es algo básico prometo mejorarlo y hacer como un ayudante de estudi
 -Segundo paso: implementar las formulas en js
 -Tercer paso: crear funciones
 -Cuarto: integrar js con html
+
+## Taller 2: promedio, mediana y moda
+
+-Primer paso: definir las formas
+-Segundo paso: implementar las formulas en js
+-Tercer paso: crear funciones
+-Cuarto: integrar js con html
