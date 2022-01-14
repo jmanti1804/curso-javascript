@@ -3,7 +3,7 @@
 ...
 
 Este programa es acerca de un curso realizado lo hice en lenguaje HTML, Css y Js
-el programa es algo básico prometo mejorarlo y hacer como un ayudante de estudio para muchos figuras 
+el programa es algo básico me ayudó mucho a saber como funciona js en Frontend 
 
 ## Taller 1: figuras geometricas
 
@@ -18,3 +18,6 @@ el programa es algo básico prometo mejorarlo y hacer como un ayudante de estudi
 -Segundo paso: implementar las formulas en js
 -Tercer paso: crear funciones
 -Cuarto: integrar js con html
+
+## Taller 3: poprcentajes y descuentos
+-Taller realizado para calcular el procentaje de descuento de una tienda
