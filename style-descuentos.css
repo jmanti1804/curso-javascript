@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+body{
+    background-color: #2C2E43;
+}
+header{
+   text-align: center;
+   padding: 1% 1%;
+   font-size: 1.2rem;
+   font-weight:700;
+   color: #FFD523;
+}
+.main_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:  #B2B1B9;
+    min-width: 320px;
+}
+.main_container h2{
+    font-size: 1.2rem;
+}
+.main_price{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 5px;
+    border: 1px  solid white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%
+}
+.main_input_price{
+    background-color: #595260;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0 0 0 / 50%);
+    outline: none;
+}
+.main_button{
+    background-color: #FFD523;
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: calc(30% - 20px);
+}
+.main_coupon{
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%
+}
+.nota_coupon{
+    font-size: 10px;
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 8px
+}
+.info_coupon{
+    margin-bottom: 8px;
+}
+#ResultPrice{
+    border-bottom: 1px solid white;
+    border-radius: 15px;
+    padding: 0 10px;
+    font-size: 20px;
+    color: white;
+}
