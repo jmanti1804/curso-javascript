@@ -21,3 +21,7 @@ el programa es algo básico me ayudó mucho a saber como funciona js en Frontend
 
 ## Taller 3: poprcentajes y descuentos
 -Taller realizado para calcular el procentaje de descuento de una tienda
+-Primer paso: definir formulas
+-Swgundo paso: Implementar las formulas en js
+-Tercer Paso: Crear las funciones
+-Cuarto paso: intergrar js con Html
