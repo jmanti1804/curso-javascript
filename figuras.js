@@ -68,3 +68,18 @@ function calcularAreaTriangulo(){
     const area = areaTriangulo(value3, value5);
     document.getElementById("ViewResultTriangulo").value=area;
 }
+function calcularPerimetroCirculo(){
+    const inputCir = document.getElementById("InputCirculo");
+    const valueCir = parseInt(inputCir.value);
+
+    const perimetro = perimetroCirculo(valueCir);
+    document.getElementById("ViewResultCirculo").value = perimetro;
+}
+
+function calcularAreaCirculo(){
+    const inputCir = document.getElementById("InputCirculo");
+    const valueCir = parseInt(inputCir.value);
+
+    const area = areaCirculo(valueCir);
+    document.getElementById("ViewResultCirculo").value = area;
+}
