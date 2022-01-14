@@ -10,20 +10,21 @@ body{
     margin-top: 15px;
     text-align: center;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 28px;
     color: #FFAA4C;
     margin-bottom: 8px;
 }
 .header__title p{
     text-align: center;
-    font-size: 16px;
-    color: #5089C6;
+    font-size: 20px;
+    color: #a7c2df;
 }
 main{
     position: relative;
     width: 100%;
     height: auto;
     padding: 10px 10px;
+    margin:10px 5% 10px 6% ;
 }
 .main__container{
     width: 100%;
