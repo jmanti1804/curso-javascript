@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Precios y Descuentos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="./descuentos.js"></script>
+    <header>
+        <h1>Porcentajes y descuentos</h1>
+    </header>
+    <section class="main_container">
+        <h2 class="main_title">Calcula el precio a pagar de tus productos con descuento</h2>
+        <form action="">
+            <div class="main_price">
+                <label for="InputPrice">Precio Original</label>
+                <input class="main_input_price" id="InputPrice" type="number">
+                <label for="InputDiscount">Descuento</label>
+                <input class="main_input_price" id="InputDiscount" type="number">
+            </div>
+            <button class="main_button" type="button" onClick="onClickButton()">
+                Calcular
+            </button>
+            <div class="main_coupon">
+                <p class="info_coupon">Sección de cupones</p>
+                <p class="info_coupon">Si tienes uno ingresa el código</p>
+                <label for="InputCoupon">Cupón</label>
+                <input class="main_input_price" id="InputCoupon" type="text">
+                <p class="nota_coupon">No olvides ingresar el precio Original</p>
+            </div>
+            <button class="main_button" type="button" onClick="onClickButtonCoupon()">
+                Usar cupón
+            </button>
+            <p id="ResultPrice" onkeypress="onkey"></p>
+        </form>
+    </section>
+</body>
+</html>
